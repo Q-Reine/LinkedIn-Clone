@@ -1,0 +1,269 @@
+/* Styles */
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color: #ffffff;
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
+header {
+    background-color: #242424;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    color: #ffffff;
+}
+
+header .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+header .logo input {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px 10px;
+    outline: none;
+    width: 300px;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-tab {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #666;
+    
+    font-size: 14px;
+
+}
+
+.nav-tab i, .nav-tab img {
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.left-side {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;    
+    margin-right: 30px;
+}
+
+.left-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+   
+}
+.left-profile p{
+    display: flex;
+    justify-content: space-between;        
+    margin: 10px 0;
+    font-size: 14px;
+    color: #b1afaf;
+}
+
+.left-side span{
+    color: #4a8fd5;
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 15px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    align-items: center;
+}
+
+.user-profile {
+    text-align: center;
+    border-bottom: 1px solid #5c5b5b;
+    font-weight: bold;
+    
+}
+.user-status {
+    border-bottom: 1px solid #5c5b5b;
+}
+.tools, .tools a {
+    border-bottom: 1px solid #5c5b5b;
+    color: #ffffff;
+    padding-bottom: 20px;
+}
+.tools img {
+    border-radius: 3px;
+}
+
+.connections {
+    margin-top: 15px;
+    font-size: 14px;
+    background-color: #1e1e1e;
+    ;
+    border-radius: 10px;
+    padding-left: 20px;
+}
+.network {
+    border-bottom: 1px solid #5c5b5b;
+}
+
+.notifications {
+    border-bottom: 1px solid #5c5b5b;
+    color: #b1afaf;
+    font-size: 16px;
+}
+
+.middle-content {    
+    padding-inline: 15px;
+    margin-top: 15px;
+   
+}
+.middle-profile {
+    background-color: #1e1e1e;
+    padding: 10px 20px 20px 10px;
+    border-radius: 10px;
+}
+
+.feed-profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.feed-profile input {
+    flex-grow: 1;
+    border: 2px solid #5c5b5b;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.feed-actions {
+    display: flex;
+    flex-direction: row;
+}
+
+.feed-action {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    font-size: 14px;
+    padding-left: 100px;
+}
+
+.feed-post {
+    margin-top: 30px;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+}
+.post {
+    display: flex;
+    flex-direction: row;
+    margin-left: 30px;
+    color: #666;
+}
+.post img, h3 {
+    border-radius: 50%;
+    margin-top: 20px;
+    padding-right: 10px;
+    color: #ffffff;
+}
+.post span {
+    color: #666;
+}
+.feed-post h4 {
+    color: #ddd;
+    font-size: 16px;
+    padding-inline: 30px;
+}
+.feed-post span{
+    color: #4a8fd5;
+   }
+.feed-post a {
+    color: grey;
+    text-decoration: none;
+}
+
+/* Right Sidebar */
+.right-side {
+    
+    padding: 15px;
+    border-radius: 8px;
+    background-color: #1e1e1e;
+    height: fit-content;
+    margin-left: 50px;
+    margin-top: 15px;
+}
+
+.feed-add {
+    margin-bottom: 20px;
+}
+
+.add-action {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.add-action img {
+    border-radius: 50%;
+    margin-top: 20px;
+    height: 60px;
+}
+
+.action {
+    flex-grow: 1;
+    margin-left: 10px;
+}
+
+.follow-btn {
+    border-radius: 20px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.hiring {
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    
+}
+.help {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start
+    padding: 30px;
+}
+
+.hiring img {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+footer {
+   
+    text-align: center;
+    padding: 10px 0;
+    font-size: 12px;
+    border-top: 1px solid;
+}
